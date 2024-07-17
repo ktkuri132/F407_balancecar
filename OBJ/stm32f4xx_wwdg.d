@@ -1,11 +1,6 @@
 ../obj/stm32f4xx_wwdg.o: ..\FWLIB\src\stm32f4xx_wwdg.c \
   ..\FWLIB\inc\stm32f4xx_wwdg.h ..\USER\stm32f4xx.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h \
-  G:\KeilFile\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h \
+  G:\KeilFile\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h \
   ..\USER\system_stm32f4xx.h ..\USER\stm32f4xx_conf.h \
   ..\FWLIB\inc\stm32f4xx_adc.h ..\FWLIB\inc\stm32f4xx_crc.h \
   ..\FWLIB\inc\stm32f4xx_dbgmcu.h ..\FWLIB\inc\stm32f4xx_dma.h \

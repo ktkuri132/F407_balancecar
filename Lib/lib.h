@@ -12,13 +12,16 @@ extern "C"
 }
 //uint32_t APB1Periph_map(TIM_TypeDef* TIMx);
 void IT_config(TIM_TypeDef *TIMx,FunctionalState NewState);
-void TIM_config(TIM_TypeDef* TIMx,uint16_t Prescaler,uint32_t Period,FunctionalState NewState=DISABLE,uint8_t TIMx_IRQn=TIM3_IRQn);
+void TIM_config(TIM_TypeDef* TIMx,uint16_t Prescaler,uint32_t Period,
+                FunctionalState NewState=DISABLE,uint8_t TIMx_IRQn=TIM3_IRQn);
 void ADC_config(GPIO_TypeDef* GPIOx, uint32_t GPIO_Pin_x,ADC_TypeDef* ADCx,uint8_t ADC_Channel_x);
 void DAC_config(uint32_t DAC_Channel_x,uint32_t GPIO_Pin_x);
 void DMA_config(DMA_Stream_TypeDef* DMAy_Streamx,uint32_t DMA_Channel_x);
-TIM_OCInitTypeDef* PWM_config(TIM_TypeDef* TIMx,uint8_t x,uint32_t CCR,GPIO_TypeDef* GPIOx, uint32_t GPIO_Pin_x,uint8_t GPIO_AF_x);
-TIM_ICInitTypeDef* EncoderTIM_config(TIM_TypeDef* TIMx,uint8_t x,GPIO_TypeDef* GPIOx, uint32_t GPIO_Pin_x,uint8_t GPIO_AF_x,
-                                     uint8_t Polarity,uint16_t TIM_Channel_x=TIM_Channel_1,uint16_t Filter=0xFF);
+TIM_OCInitTypeDef* PWM_config(TIM_TypeDef* TIMx,uint8_t x,uint32_t CCR,GPIO_TypeDef* GPIOx, 
+                                uint32_t GPIO_Pin_x,uint8_t GPIO_AF_x=3);
+TIM_ICInitTypeDef* EncoderTIM_config(TIM_TypeDef* TIMx,GPIO_TypeDef* GPIOx, 
+                                    uint32_t GPIO_Pin_x,uint8_t GPIO_AF_x,
+                                     uint8_t Polarity=1,uint16_t TIM_Channel_x=TIM_Channel_1,uint16_t Filter=0xFF);
 USART_InitTypeDef* BLE_config(FunctionalState NewState=ENABLE);
 
 class GPIO

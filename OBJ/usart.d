@@ -1,11 +1,6 @@
 ../obj/usart.o: ..\SYSTEM\usart\usart.c ..\SYSTEM\sys\sys.h \
   ..\USER\stm32f4xx.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h \
-  G:\KeilFile\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h \
-  G:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h \
+  G:\KeilFile\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h \
   ..\USER\system_stm32f4xx.h ..\USER\stm32f4xx_conf.h \
   ..\FWLIB\inc\stm32f4xx_adc.h ..\FWLIB\inc\stm32f4xx_crc.h \
   ..\FWLIB\inc\stm32f4xx_dbgmcu.h ..\FWLIB\inc\stm32f4xx_dma.h \
@@ -20,5 +15,4 @@
   ..\FWLIB\inc\stm32f4xx_hash.h ..\FWLIB\inc\stm32f4xx_rng.h \
   ..\FWLIB\inc\stm32f4xx_can.h ..\FWLIB\inc\stm32f4xx_dac.h \
   ..\FWLIB\inc\stm32f4xx_dcmi.h ..\FWLIB\inc\stm32f4xx_fsmc.h \
-  ..\SYSTEM\usart\usart.h \
-  G:\KeilFile\ARM\ARMCLANG\Bin\..\include\stdio.h
+  ..\SYSTEM\usart\usart.h ..\OLED_SPI\OLED.h ..\OLED_SPI\OLED_Data.h

@@ -208,7 +208,7 @@ TIM_OCInitTypeDef* PWM_config(TIM_TypeDef* TIMx,uint8_t x,uint32_t CCR,GPIO_Type
 }
 /************************************************定时器输入比较***********************************************************/
 //1，测编码电机速度
-TIM_ICInitTypeDef* EncoderTIM_config(TIM_TypeDef* TIMx,uint8_t x,GPIO_TypeDef* GPIOx, uint32_t GPIO_Pin_x,uint8_t GPIO_AF_x,
+TIM_ICInitTypeDef* EncoderTIM_config(TIM_TypeDef* TIMx,GPIO_TypeDef* GPIOx, uint32_t GPIO_Pin_x,uint8_t GPIO_AF_x,
 									uint8_t Polarity,uint16_t TIM_Channel_x,uint16_t Filter)
 								
 {

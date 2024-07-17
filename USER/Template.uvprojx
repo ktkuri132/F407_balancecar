@@ -10,7 +10,7 @@
       <TargetName>Template</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
+      <pCCUsed>6220000::V6.22::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -323,7 +323,7 @@
             <PlainCh>0</PlainCh>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <wLevel>3</wLevel>
+            <wLevel>1</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>0</uC99>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\Lib;..\OLED_SPI;..\Key;..\MPU6050;..\IIC;..\MPU6050\eMPL</IncludePath>
+              <IncludePath>..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\Lib;..\OLED_SPI;..\Key;..\MPU6050;..\IIC;..\MPU6050\eMPL;..\tempfile;..\OLED_I2C</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -652,22 +652,22 @@
             <File>
               <FileName>OLED.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\OLED_SPI\OLED.c</FilePath>
+              <FilePath>..\OLED_I2C\OLED.c</FilePath>
             </File>
             <File>
               <FileName>OLED.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\OLED_SPI\OLED.h</FilePath>
+              <FilePath>..\OLED_I2C\OLED.h</FilePath>
             </File>
             <File>
               <FileName>OLED_Data.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\OLED_SPI\OLED_Data.c</FilePath>
+              <FilePath>..\OLED_I2C\OLED_Data.c</FilePath>
             </File>
             <File>
               <FileName>OLED_Data.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\OLED_SPI\OLED_Data.h</FilePath>
+              <FilePath>..\OLED_I2C\OLED_Data.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -758,6 +758,21 @@
               <FileName>inv_mpu_dmp_motion_driver.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\MPU6050\eMPL\inv_mpu_dmp_motion_driver.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>temp</GroupName>
+          <Files>
+            <File>
+              <FileName>test.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\tempfile\test.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\tempfile\test.h</FilePath>
             </File>
           </Files>
         </Group>

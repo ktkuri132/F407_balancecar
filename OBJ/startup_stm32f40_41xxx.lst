@@ -858,12 +858,12 @@ ARM Macro Assembler    Page 14
               00000000 
 Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M4.fp.sp 
 --depend=..\obj\startup_stm32f40_41xxx.d -o..\obj\startup_stm32f40_41xxx.o -I.\
-RTE\_Template -IG:\KeilFile\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include -IG:\KeilF
+RTE\_Template -IG:\KeilFile\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include -IG:\KeilF
 ile\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -
 IG:\KeilFile\Packs\Keil\STM32F4xx_DFP\2.15.0\Device\Include --predefine="__MICR
-OLIB SETA 1" --predefine="__UVISION_VERSION SETA 538" --predefine="_RTE_ SETA 1
-" --predefine="STM32F407xx SETA 1" --predefine="_RTE_ SETA 1" --list=..\obj\sta
-rtup_stm32f40_41xxx.lst ..\CORE\startup_stm32f40_41xxx.s
+OLIB SETA 1" --predefine="__UVISION_VERSION SETA 540" --predefine="STM32F407xx 
+SETA 1" --predefine="_RTE_ SETA 1" --list=..\obj\startup_stm32f40_41xxx.lst ..\
+CORE\startup_stm32f40_41xxx.s
 
 
 
